@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://sudo-ers.github.io/"
+base_url = "https://sudo-ers.github.io/blog"
 
 # The site title and description; used in feeds by default.
 title = "sudoers"
@@ -51,8 +51,8 @@ style = "inline"
 
 # The theme to use for code highlighting.
 # See https://github.com/getzola/giallo?tab=readme-ov-file#themes for the list of allowed values.
-light_theme = "catppuccin-latte"                                                                                     
-dark_theme = "catppuccin-mocha"
+light_theme = "github-light-default"
+dark_theme = "github-dark-default"
 
 [extra]
 logo_base_url = "/"
@@ -63,9 +63,9 @@ layout = "center"
 show_default_author = false
 
 main_menu = [
-    { name = "blog", url = "blog", trailing_slash = true },
-    { name = "tags", url = "tags", trailing_slash = true },
-    { name = "rss", url = "rss.xml", trailing_slash = true },
+    { name = "blog", url = "/blog", trailing_slash = true },
+    { name = "tags", url = "/blog/tags", trailing_slash = true },
+    { name = "rss", url = "/blog/rss.xml", trailing_slash = true },
 ]
 
 socials = [
