@@ -63,9 +63,9 @@ layout = "center"
 show_default_author = false
 
 main_menu = [
-    { name = "blog", url = "/blog", trailing_slash = true },
-    { name = "tags", url = "/blog/tags", trailing_slash = true },
-    { name = "rss", url = "/blog/rss.xml", trailing_slash = true },
+    { name = "blog", url = "/", trailing_slash = true },
+    { name = "tags", url = "/tags", trailing_slash = true },
+    { name = "rss", url = "/rss.xml", trailing_slash = true },
 ]
 
 socials = [
