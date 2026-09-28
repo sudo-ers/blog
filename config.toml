@@ -79,8 +79,11 @@ socials = [
 [extra.content_security_policy]
 enable = true
 allowed_domains = [
-    { directive = "base-uri", domains = ["'self'"] },
-    { directive = "form-action", domains = ["'self'"] },
+	{ directive = "style-src", domains = ["'self'", "https://fonts.googleapis.com", "'unsafe-inline'"] },
+	{ directive = "font-src", domains = ["'self'", "https://fonts.gstatic.com", "data:"] },
+	{ directive = "connect-src", domains = ["https://fonts.googleapis.com", "https://fonts.gstatic.com"] },
+	{ directive = "base-uri", domains = ["'self'"] },
+	{ directive = "form-action", domains = ["'self'"] },
 ]
 
 [extra.responsive_images]
