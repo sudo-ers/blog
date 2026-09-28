@@ -3,7 +3,7 @@ base_url = "https://sudo-ers.github.io/blog"
 
 # The site title and description; used in feeds by default.
 title = "sudoers"
-description = "the sudoers"
+description = "the sudoers "
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -63,9 +63,10 @@ layout = "center"
 show_default_author = false
 
 main_menu = [
-    { name = "blog", url = "/", trailing_slash = true },
-    { name = "tags", url = "/tags", trailing_slash = true },
-    { name = "rss", url = "/rss.xml", trailing_slash = true },
+    { name = "blog", url = "/blog", trailing_slash = true },
+    { name = "tags", url = "/blog/tags", trailing_slash = true },
+    { name = "categories", url = "/blog/categories", trailing_slash = true },
+    { name = "rss", url = "/blog/rss.xml", trailing_slash = true },
 ]
 
 socials = [
